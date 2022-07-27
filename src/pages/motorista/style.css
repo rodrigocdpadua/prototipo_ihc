@@ -1,0 +1,128 @@
+.mot-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+  width: 1200px;
+  height: 620px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 20px #000000;
+  background-color: #8483c3aa;
+  overflow-y: scroll;
+}
+
+.list-rotas-container{
+  width: 100%;
+  background-color: #b6b5d48a;
+}
+
+.card-rota{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px 20px 0px;
+
+  border: 1px solid black;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.card-rota:hover{
+  background-color: #cdcced8a;
+}
+.card-rota:active{
+  background-color: #a09fbb8a;
+}
+
+.rota-details-container{
+  display: flex;
+  justify-content: space-between;
+}
+.mapa-rota{
+  border: 1px solid black;
+  height: 620px;
+}
+.rota-details{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0px 25px 0px 25px;
+}
+
+.start-button{
+  display: inline-block;
+  min-height: 1.75rem;
+  min-width: 1.75rem;
+  padding: 0.250rem 0.50rem;
+  margin-top: auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  color: inherit;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #62cb62;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.start-button:hover:enabled{
+  background-color: #6bdd6b;
+}
+.start-button:active:enabled{
+  background-color: #59b959;
+}
+.start-button:disabled{
+  opacity: 0.6;
+  background-color: #bababa;
+}
+.back-button{
+  display: inline-block;
+  min-height: 1.75rem;
+  min-width: 1.75rem;
+  padding: 0.250rem 0.50rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: none;
+  color: inherit;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #de9e9e;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.back-button:hover{
+  background-color: #f5afaf;
+}
+.back-button:active{
+  background-color: #c88d8d;
+}
+.input-box{
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+.rota-details label{
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.rota-details h1{
+  align-self: center;
+}
