@@ -61,4 +61,10 @@ const alterStatus = (rota) => {
   lista_rotas.splice(lista_rotas.indexOf(rota), 1);
 }
 
-export default {addRota, returnRota, alterStatus};
+const dados = {
+  addRota,
+  returnRota,
+  alterStatus
+}
+
+export default dados;

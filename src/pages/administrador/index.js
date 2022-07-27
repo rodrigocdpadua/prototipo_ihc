@@ -24,7 +24,7 @@ const Administrador = () => {
     <>
     { (!create) ?
     <div className="adm-container">
-      <img className="adm-mapa-rota" src={rota1} />
+      <img className="adm-mapa-rota" src={rota1} alt="mapa"/>
       <div className="adm-right">
         <div className="adm-list-rotas-container">
           {listRota.map((r, key) => (

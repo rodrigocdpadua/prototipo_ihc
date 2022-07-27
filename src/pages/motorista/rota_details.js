@@ -41,7 +41,7 @@ const RotaDatails = (props) => {
 
   return(
     <div className="rota-details-container">
-      <img className="mapa-rota" src={rota1} />
+      <img className="mapa-rota" src={rota1} alt="mapa"/>
       <div className="rota-details">
         <h1>{props.rota.nome_rota}</h1>
         <p>{props.rota.motorista}</p>
